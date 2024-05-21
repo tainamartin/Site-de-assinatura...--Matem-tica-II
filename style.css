@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #02489d;
+    --cinza-secundario: #d2cbcb;
+    --botao-azul: #143257;
     --cor-de-fundo: #01040f;
     --fonte-principal: 'platypi'; 
 
@@ -15,10 +23,6 @@ body{
     font-weight: 400;
 }
 
-*{
-    margin: 0;
-    padding: 0:
-}
 
 .principal {
     background-image: url("Background.png");
