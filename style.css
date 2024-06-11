@@ -4,18 +4,18 @@
 }
 
 :root {
-    --branco-principal: #ba4545;
+    --branco-principal: #fdfcfc;
     --cinza-secundario: #d2cbcb;
     --botao-azul: #143257;
     --cor-de-fundo: #01040f;
-    --fonte-principal: 'platypi'; 
+    --fonte-principal: 'Prompt'; 
 
 }
 
 body{
     background-color: var(--cor-de-fundo) ;
     font-family: var(--fonte-principal);
-    color: var(--branco-principal)
+    color: var(--branco-principal);
     font-size: 16px;
     font-weight: 400;
 }
@@ -33,15 +33,17 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
-.container__botao{
+ 
+.container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px ;
+    border-radius: 5px;
     padding: 1em;
-    color: var(--branco-principal)
-    display : block; 
+    color: var(--branco-principal);
+    display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
+
 
 .botao_secundario{
     background-color: transparent;
@@ -51,4 +53,12 @@ body{
 .container_aviso{
     font-size: 12px;
     color: var(--cinza-secundario)
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa {
+    margin: 0 6em;
 }
